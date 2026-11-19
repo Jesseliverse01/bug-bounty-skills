@@ -16,6 +16,7 @@ Every skill keeps the license it came with. The license file inside each skill f
 - skills/osmedeus-expert/: 1 skill, MIT. Source: j3ssie/osmedeus.
 - skills/agentic-bug-hunter/: 25 skills, MIT. Source: awarexone/Agentic-Bug-Hunter.
 - skills/claude-bughunter/: 82 skills, MIT code and CC BY 4.0 skill content. Source: elementalsouls/Claude-BugHunter.
+- skills/securitytesting/: 1 skill, no license file upstream — the repo states no license, so the checklist is reproduced here with attribution and is not relicensed. Source: The-XSS-Rat/SecurityTesting.
 
 No skill was relicensed. Nothing in those folders was rewritten; the files are verbatim copies of the saved versions, including their own license files. Three example credentials found in the Anthropic bundle were redacted in the saved copies before they were placed here, and the redactions are noted in the affected skills' audit verdict files.
 

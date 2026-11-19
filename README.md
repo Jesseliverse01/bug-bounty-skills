@@ -4,7 +4,7 @@ A collection of skills for learning bug bounty hunting, gathered from open-sourc
 
 ## What is inside
 
-936 skills, in six groups:
+937 skills, in seven groups:
 
 - skills/anthropic-cybersecurity/ holds 818 structured cybersecurity skills across 29 domains, mapped to MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3. This is the reference shelf. When a hunt touches a specific domain, the playbook for it is usually already written here.
 - skills/claude-bughunter/ holds 82 skills for bug hunting and external red-team work, with 681 disclosed-report patterns across 24 vulnerability classes, plus an overview folder with the usage guide. This is the set to reach for first when hunting.
@@ -12,6 +12,7 @@ A collection of skills for learning bug bounty hunting, gathered from open-sourc
 - skills/strix/ holds 9 skills for web, API, code, and OWASP testing, plus CI scanning and fixing.
 - skills/shannon/ holds 1 pointer skill for the Shannon autonomous pentester, with its reference docs.
 - skills/osmedeus-expert/ holds 1 skill for driving the Osmedeus recon engine.
+- skills/securitytesting/ holds 1 skill: the web-application hunting checklist from The-XSS-Rat/SecurityTesting, 18 sections from strategy and recon through XSS, SQLi, SSRF, and chaining. Use it to plan coverage before a hunt.
 
 The tools/ folder has a short note per recon tool that was verified working: amass, subfinder, httpx, bbot, spiderfoot, theHarvester, WhatWeb, osmedeus, and OneForAll. No tool code is vendored here. The frameworks/ folder has a short note per framework that was not installed, with the blocker written down: pentagi, PentestGPT, DeepAudit, rengine, reconftw, Strix, and Shannon.
 
@@ -25,7 +26,7 @@ The rules that matter most are short. Only test targets you are authorized to te
 
 ## Sources
 
-Nine of the upstream repos are forked under the same account, as source references. The other ten are still waiting: GitHub throttles fork creation after a burst of forks, so those will be forked once the limit lifts. The skills themselves are already in this repo either way.
+Nine of the upstream repos are forked under the same account, as source references. The other eleven are still waiting: GitHub throttles fork creation after a burst of forks, so those will be forked once the limit lifts. The skills themselves are already in this repo either way.
 
 Forked so far:
 
@@ -51,6 +52,7 @@ Still to fork, once GitHub lifts the limit:
 - six2dez/reconftw
 - urbanadventurer/WhatWeb
 - j3ssie/osmedeus
+- The-XSS-Rat/SecurityTesting
 
 ## Licensing
 
