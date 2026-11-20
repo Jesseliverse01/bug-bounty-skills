@@ -1,6 +1,6 @@
 ---
 name: web3-audit-corpus
-description: Open dataset of public Web3 smart-contract security audits from Bitsec-AI — 2026-10-22 snapshot with 63 publishers, 12,767 audits, 11,027 projects and 175,640 finding records (160,239 with full text), years 2015-2026. Use as the reference library before auditing a protocol: search past findings by class, firm, chain or project, read recorded fixes, and turn them into a review checklist. Derived metadata is CC BY 4.0 (attribution required); quoted finding text stays with the original publishers. Nothing here is downloaded or installed — this skill documents the dataset, its files, and how to query it.
+description: Open dataset of public Web3 smart-contract security audits from Bitsec-AI — 2026-10-22 snapshot with 63 publishers, 12,767 audits, 11,027 projects and 175,640 finding records (160,239 with full text), years 2015-2026. Use as the reference library before auditing a protocol: search past findings by class, firm, chain or project, read recorded fixes, and turn them into a review checklist. Derived metadata is CC BY 4.0 (attribution required); quoted finding text stays with the original publishers. Downloaded 2026-11-20 to ~/workspace/web3-audit-corpus/ (v1.3.0, 175,640 findings verified).
 ---
 
 # Web3 Audit Corpus
@@ -64,5 +64,5 @@ The companion findings repo has one Markdown file per finding, the report extrac
 
 - AI-assisted extraction and annotation may contain errors. **Always check the linked original report** before treating a finding as fact.
 - 2026 is year to date; the snapshot is not live.
-- The dataset was not downloaded, installed or verified here — no local copy exists. Download from the latest release and verify `CHECKSUMS.sha256` when he wants to use it.
+- Downloaded 2026-11-20: release v1.3.0 (snapshot 2026-10-22) at `~/workspace/web3-audit-corpus/` — `findings.jsonl.gz` (175,640 findings, verified count + SHA256 OK), `audits-markdown.zip` extracted (13,523 Markdown files), plus engagements/reports/firms CSVs, taxonomy.yaml and DATA_DICTIONARY.md. Total ~695 MB on the VM. High+critical findings: 22,123; top high/critical classes are `logic_accounting.balance_shares` (2,425), `logic_accounting.state_transition` (2,076) and `logic_accounting.reward_fee` (2,040). Query with plain Python (gzip + json) or DuckDB; the `chains` field is mostly `unknown` (130,852 rows), so filter by `vuln_leaf`/`vuln_group` and `project` instead.
 - Quoted finding text is reference material for research, not ground truth and not his to re-publish as his own.
