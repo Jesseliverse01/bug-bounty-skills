@@ -17,6 +17,7 @@ Every skill keeps the license it came with. The license file inside each skill f
 - skills/agentic-bug-hunter/: 25 skills, MIT. Source: awarexone/Agentic-Bug-Hunter.
 - skills/claude-bughunter/: 82 skills, MIT code and CC BY 4.0 skill content. Source: elementalsouls/Claude-BugHunter.
 - skills/securitytesting/: 1 skill, no license file upstream — the repo states no license, so the checklist is reproduced here with attribution and is not relicensed. Source: The-XSS-Rat/SecurityTesting.
+- skills/bitsec/: 2 skills. web3-audit-corpus: derived metadata and annotations CC BY 4.0 (attribution to Dickson Wu); quoted finding text remains the publishers' copyright. scabench: MIT. Sources: Bitsec-AI/web3-audit-corpus, Bitsec-AI/scabench.
 
 No skill was relicensed. Nothing in those folders was rewritten; the files are verbatim copies of the saved versions, including their own license files. Three example credentials found in the Anthropic bundle were redacted in the saved copies before they were placed here, and the redactions are noted in the affected skills' audit verdict files.
 

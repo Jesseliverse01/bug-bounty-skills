@@ -4,7 +4,7 @@ A collection of skills for learning bug bounty hunting, gathered from open-sourc
 
 ## What is inside
 
-937 skills, in seven groups:
+939 skills, in eight groups:
 
 - skills/anthropic-cybersecurity/ holds 818 structured cybersecurity skills across 29 domains, mapped to MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3. This is the reference shelf. When a hunt touches a specific domain, the playbook for it is usually already written here.
 - skills/claude-bughunter/ holds 82 skills for bug hunting and external red-team work, with 681 disclosed-report patterns across 24 vulnerability classes, plus an overview folder with the usage guide. This is the set to reach for first when hunting.
@@ -13,6 +13,7 @@ A collection of skills for learning bug bounty hunting, gathered from open-sourc
 - skills/shannon/ holds 1 pointer skill for the Shannon autonomous pentester, with its reference docs.
 - skills/osmedeus-expert/ holds 1 skill for driving the Osmedeus recon engine.
 - skills/securitytesting/ holds 1 skill: the web-application hunting checklist from The-XSS-Rat/SecurityTesting, 18 sections from strategy and recon through XSS, SQLi, SSRF, and chaining. Use it to plan coverage before a hunt.
+- skills/bitsec/ holds 2 skills from Bitsec-AI: web3-audit-corpus, the open dataset of 12,767 public audits and 175,640 findings (2015–2026) to use as a reference library before a hunt, and scabench, the benchmark for scoring AI audit agents on 31 real contest projects with the Nethermind AuditAgent scoring algorithm. The Bittensor and subnet repos from the same org were skipped.
 
 The tools/ folder has a short note per recon tool that was verified working: amass, subfinder, httpx, bbot, spiderfoot, theHarvester, WhatWeb, osmedeus, and OneForAll. No tool code is vendored here. The frameworks/ folder has a short note per framework that was not installed, with the blocker written down: pentagi, PentestGPT, DeepAudit, rengine, reconftw, Strix, and Shannon.
 
@@ -26,7 +27,7 @@ The rules that matter most are short. Only test targets you are authorized to te
 
 ## Sources
 
-Nine of the upstream repos are forked under the same account, as source references. The other eleven are still waiting: GitHub throttles fork creation after a burst of forks, so those will be forked once the limit lifts. The skills themselves are already in this repo either way.
+Nine of the upstream repos are forked under the same account, as source references. The other thirteen are still waiting: GitHub throttles fork creation after a burst of forks, so those will be forked once the limit lifts. The skills themselves are already in this repo either way.
 
 Forked so far:
 
@@ -53,6 +54,8 @@ Still to fork, once GitHub lifts the limit:
 - urbanadventurer/WhatWeb
 - j3ssie/osmedeus
 - The-XSS-Rat/SecurityTesting
+- Bitsec-AI/web3-audit-corpus
+- Bitsec-AI/scabench
 
 ## Licensing
 
